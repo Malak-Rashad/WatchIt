@@ -1,0 +1,14 @@
+.root{
+-fx-background-color:"black";
+}
+.Label {
+  //  -fx-font-size: 10;
+    -fx-text-fill: #ffffff;
+   // -fx-alignment :center;
+}
+#titlelable{
+   // -fx-font-size: 40;
+    -fx-text-fill: #eb6126;
+
+}
+
