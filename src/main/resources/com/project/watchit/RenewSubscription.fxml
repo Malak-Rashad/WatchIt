@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.watchit.RenewSubscriptionController">
+   <children>
+      <ImageView fitHeight="102.0" fitWidth="143.0" layoutX="8.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@66368.jpg" />
+         </image>
+      </ImageView>
+      <VBox layoutX="4.0" layoutY="156.0" prefHeight="459.0" prefWidth="1000.0">
+         <children>
+            <VBox prefHeight="278.0" prefWidth="908.0" spacing="20.0">
+               <children>
+                  <Label prefHeight="34.0" prefWidth="265.0" text="My Subscription Detials" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="23.0" />
+                     </font>
+                  </Label>
+                  <HBox prefHeight="171.0" prefWidth="908.0">
+                     <children>
+                        <VBox prefHeight="180.0" prefWidth="134.0" spacing="20.0">
+                           <children>
+                              <Label text="Plan :" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Plrice :" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Start Date :" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="136.0" prefWidth="298.0" spacing="20.0">
+                           <children>
+                              <Label fx:id="PlanLbl" prefHeight="30.0" prefWidth="297.0" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="PriceLbl" prefHeight="30.0" prefWidth="310.0" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="StartDateLbl" prefHeight="30.0" prefWidth="302.0" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <Label fx:id="msgLbl" prefHeight="27.0" prefWidth="464.0" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <Separator prefWidth="200.0" />
+            <VBox prefHeight="182.0" prefWidth="1000.0" spacing="50.0">
+               <children>
+                  <Label text="Renew My Plan" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Button mnemonicParsing="false" onAction="#SwitchToNewSubscription" style="-fx-background-color: #fbff00;" text="Renew Subscription">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+      <Button layoutX="164.0" layoutY="45.0" mnemonicParsing="false" onAction="#Back" style="-fx-background-color: #fbff00;" text="Back">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

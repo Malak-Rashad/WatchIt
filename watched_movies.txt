@@ -1,0 +1,4 @@
+2,Inception,5,2024-12-01,Shutter Island,4,2024-12-09,Home Alone,-1,2024-12-22,Insidious,-1,2024-12-22
+3,Avengers,4,2024-11-12,Avengers: Age of Ultron,4,2024-11-12,Harry Potter and the Sorcerer's Stone,5,2024-11-15
+4,Harry Potter and the Sorcerer's Stone,4,2024-12-15,Avengers,5,2024-12-16,Avengers: Infinity War,4,2024-12-17,The Conjuring,-1,2024-12-22
+10,Interstellar,-1,2024-12-22

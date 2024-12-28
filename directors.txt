@@ -1,0 +1,19 @@
+Christopher,Nolan,British-American,Male,30/07/1970,Interstellar
+James,Wan,Australian,Male,26/02/1977,The Conjuring
+Chris,Columbus,American,Male,10/09/1958,Home Alone
+Wes,Ball,American,Male,28/10/1980,Maze Runner
+Gary,Ross,American,Male,03/11/1956,The Hunger Games
+Frank,Darabont,American,Male,28/01/1959,The Shawshank Redemption
+Hayao,Miyazaki,Japanese,Male,05/01/1941,Spirited Away
+Joss,Whedonc,American,Male,23/06/1964,Avengers
+Martin,Scorsese,American,Male,17/11/1942,Shutter Island
+Jang,Hang-jun,South-Korean,Male,17/09/1969,Forgotten
+Bong,Joon-ho,South-Korean,Male,14/09/1969,Parasite
+Joe,Russo,American,Male,18/07/1971,Avengers: Infinity War
+Aamir,Khan,Indian,Male,14/03/1965,Like Stars on Earth
+Damien,Chazelle,French-American,Male,19/01/1985,La La Land
+Greta,Gerwig,American,Female,04/08/1983,Little Women
+Joe,Wright,British,Male,25/08/1972,Pride and Prejudice
+Nancy,Meyers,American,Female,08/12/1949,The Intern
+David,Fincher,American,Male,28/08/1962,Se7en
+Darren,Aronofsky,American,Male,12/02/1969,Black Swan

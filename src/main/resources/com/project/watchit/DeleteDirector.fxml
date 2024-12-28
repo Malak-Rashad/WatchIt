@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.watchit.DeleteDirectorController">
+   <children>
+      <ImageView fitHeight="118.0" fitWidth="186.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@66368.jpg" />
+         </image>
+      </ImageView>
+      <HBox layoutX="5.0" layoutY="140.0" prefHeight="654.0" prefWidth="443.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="642.0" prefWidth="272.0" spacing="50.0">
+               <children>
+                  <Label text="First Name" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label text="Last Name" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="642.0" prefWidth="169.0" spacing="55.0">
+               <children>
+                  <TextField fx:id="firstNameField" />
+                  <TextField fx:id="lastNameField" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Button layoutX="186.0" layoutY="25.0" mnemonicParsing="false" onAction="#Back" prefHeight="25.0" prefWidth="64.0" text="Back" />
+      <Button layoutX="537.0" layoutY="347.0" mnemonicParsing="false" onAction="#handleDeleteDirector" text="Delete" />
+   </children>
+</AnchorPane>

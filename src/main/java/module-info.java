@@ -5,4 +5,7 @@ module com.project.watchit {
 
     opens com.project.watchit to javafx.fxml;
     exports com.project.watchit;
+    exports com.project.watchit.Moviee;
+    opens com.project.watchit.Moviee to javafx.fxml;
+
 }

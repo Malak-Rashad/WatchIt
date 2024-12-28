@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="943.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.watchit.AdminMainController">
+   <children>
+      <ImageView fitHeight="106.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@66368.jpg" />
+         </image>
+      </ImageView>
+      <HBox layoutX="8.0" layoutY="124.0" prefHeight="469.0" prefWidth="910.0">
+         <children>
+            <VBox prefHeight="469.0" prefWidth="213.0" spacing="50.0">
+               <children>
+                  <ImageView fitHeight="133.0" fitWidth="154.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ProfileImage.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="Namelbl" text="Admin" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Namelbl1" text="Email : admin@watchit.com" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <Separator orientation="VERTICAL" prefHeight="200.0" />
+            <VBox prefHeight="469.0" prefWidth="368.0">
+               <children>
+                  <VBox prefHeight="90.0" prefWidth="681.0" spacing="20.0">
+                     <children>
+                        <Label text="Manage Users" textFill="#e7ff00">
+                           <font>
+                              <Font name="System Bold Italic" size="23.0" />
+                           </font>
+                        </Label>
+                        <HBox prefHeight="100.0" prefWidth="200.0" spacing="100.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#goToAddUser" text="Add">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#goToDeleteUser" text="Delete">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#goToEditUser" text="Edit">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <Separator prefWidth="200.0" />
+                  <VBox prefHeight="120.0" prefWidth="681.0" spacing="20.0">
+                     <children>
+                        <Label text="Manage Movies" textFill="#e7ff00">
+                           <font>
+                              <Font name="System Bold Italic" size="23.0" />
+                           </font>
+                        </Label>
+                        <HBox prefHeight="100.0" prefWidth="200.0" spacing="100.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#goToAddMovie" text="Add">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#goToDeleteMovie" text="Delete">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#EditMovie" text="Edit">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <Separator prefHeight="5.0" prefWidth="681.0" />
+                  <VBox prefHeight="85.0" prefWidth="366.0" spacing="20.0">
+                     <children>
+                        <Label text="Manage Cast" textFill="#e7ff00">
+                           <font>
+                              <Font name="System Bold Italic" size="23.0" />
+                           </font>
+                        </Label>
+                        <HBox prefHeight="27.0" prefWidth="366.0" spacing="100.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#goToAddCast" text="Add">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#goToDeleteCast" text="Delete">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#goToEditCast" text="Edit">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <Separator prefWidth="200.0" />
+                  <VBox prefHeight="65.0" prefWidth="366.0" spacing="20.0">
+                     <children>
+                        <Label text="Manage Director" textFill="#e7ff00">
+                           <font>
+                              <Font name="System Bold Italic" size="23.0" />
+                           </font>
+                        </Label>
+                        <HBox prefHeight="32.0" prefWidth="366.0" spacing="100.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#goToAddDirector" text="Add">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#goToDeleteDirector" text="Delete">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#goToEditDirector" text="Edit">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <Separator prefWidth="200.0" />
+                  <Label text="Manage Watch Record" textFill="#e7ff00">
+                     <font>
+                        <Font name="System Bold Italic" size="23.0" />
+                     </font>
+                  </Label>
+                  <HBox prefHeight="45.0" prefWidth="366.0" spacing="100.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#goToAddWatchRecord" text="Add" />
+                        <Button mnemonicParsing="false" onAction="#goToDeleteWatchRecord" text="Delete" />
+                        <Button mnemonicParsing="false" onAction="#goToEditWatchRecord" text="Edit">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <Separator orientation="VERTICAL" prefHeight="200.0" />
+            <VBox prefHeight="469.0" prefWidth="324.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="30.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#handleMostSubscribedPlan" text="Display Most Subscribed Plan">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Button>
+                        <Label fx:id="resultLabel" prefHeight="28.0" prefWidth="298.0" textFill="#e1e500">
+                           <font>
+                              <Font name="System Bold Italic" size="19.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <Separator prefWidth="200.0" />
+                  <VBox alignment="TOP_CENTER" prefHeight="258.0" prefWidth="347.0" spacing="50.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#handleCheckRevenue" text="Display Month With Highest Revenue">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Label fx:id="revenueResultLabel" prefHeight="28.0" prefWidth="319.0" textFill="#e1e500">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

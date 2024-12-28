@@ -28,12 +28,12 @@
          <children>
             <VBox prefHeight="279.0" prefWidth="197.0" spacing="20.0">
                <children>
-                  <RadioButton fx:id="BasicOption" mnemonicParsing="false" text="Basic" textFill="WHITE">
+                  <RadioButton fx:id="basicOption" mnemonicParsing="false" text="Basic" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
                      <toggleGroup>
-                        <ToggleGroup fx:id="SubscriptionPlans" />
+                        <ToggleGroup fx:id="subscriptionPlans" />
                      </toggleGroup>
                   </RadioButton>
                   <Label text="Price :  20$" textFill="#fff200">
@@ -50,7 +50,7 @@
             </VBox>
             <VBox prefHeight="281.0" prefWidth="198.0" spacing="20.0">
                <children>
-                  <RadioButton fx:id="StandardOption" mnemonicParsing="false" text="Standard" textFill="WHITE" toggleGroup="$SubscriptionPlans">
+                  <RadioButton fx:id="standardOption" mnemonicParsing="false" text="Standard" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
@@ -69,7 +69,7 @@
             </VBox>
             <VBox prefHeight="281.0" prefWidth="171.0" spacing="20.0">
                <children>
-                  <RadioButton fx:id="PremiumOption" mnemonicParsing="false" text="Premium" textFill="WHITE" toggleGroup="$SubscriptionPlans">
+                  <RadioButton fx:id="premiumOption" mnemonicParsing="false" text="Premium" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
@@ -89,10 +89,20 @@
          </children>
       </HBox>
       <Separator layoutX="249.0" layoutY="181.0" prefHeight="13.0" prefWidth="323.0" />
-      <Button fx:id="SubmitButton" layoutX="348.0" layoutY="501.0" mnemonicParsing="false" onAction="#onSubmit" prefHeight="27.0" prefWidth="187.0" style="-fx-background-color: #fff200;" text="Submit">
+      <Button layoutX="342.0" layoutY="489.0" mnemonicParsing="false" onAction="#onSubmit" prefHeight="27.0" prefWidth="187.0" style="-fx-background-color: #fff200;" text="Submit">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Button>
+      <Label fx:id="subscriptionMessage" layoutX="38.0" layoutY="553.0" prefHeight="39.0" prefWidth="844.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="signupMessage" layoutX="314.0" layoutY="21.0" prefHeight="17.0" prefWidth="420.0" textFill="#cdcccc">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
